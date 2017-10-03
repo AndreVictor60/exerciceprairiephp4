@@ -10,6 +10,8 @@
         //Sinon si $i est multiple de 3 on affice Fizz
         elseif ($i % 3 == 0):
           echo $i.' est multiple de 3 (Fizz) <br />';
+          else:
+            echo $i;
   //Fin du Si
   endif;
   }
