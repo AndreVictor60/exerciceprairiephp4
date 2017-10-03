@@ -11,7 +11,7 @@
         elseif ($i % 3 == 0):
           echo $i.' est multiple de 3 (Fizz) <br />';
           else:
-            echo $i;
+            echo $i.'<br />';
   //Fin du Si
   endif;
   }
